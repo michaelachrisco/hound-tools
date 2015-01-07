@@ -42,6 +42,5 @@ RSpec.configure do |config|
         fail "stub me: Kernel.#{meth}(#{args.map(&:inspect) * ', '})"
       end
     end
-
   end
 end
